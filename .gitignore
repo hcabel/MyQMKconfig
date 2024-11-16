@@ -1,0 +1,16 @@
+*
+!firmware
+!README.md
+!.gitignore
+
+firmware/*
+!firmware/keyboards/
+
+firmware/keyboards/*
+!firmware/keyboards/crkbd/
+
+firmware/keyboards/crkbd/*
+!firmware/keyboards/crkbd/keymaps/
+
+firmware/keyboards/crkbd/keymaps/*
+!firmware/keyboards/crkbd/keymaps/hcabel/
